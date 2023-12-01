@@ -1,0 +1,29 @@
+#A{
+    width: 200px;
+    height: auto;
+    top: 50%;
+    left: -200px;
+    position: absolute;
+    animation-name: A;
+    animation-duration: 60s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes A {
+    0% {left: -200px;}
+    100% {left: 100%;}
+}
+
+#text{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+#sokutei{
+    text-align: center;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
